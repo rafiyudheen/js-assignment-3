@@ -1,0 +1,21 @@
+.resultDiv-none{
+    display: none;
+
+}
+#grade,#result{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.pass{
+    color: green;
+}
+.fail{
+    color: red;
+}
+
+.resultDiv-block{
+    display: block;
+
+}

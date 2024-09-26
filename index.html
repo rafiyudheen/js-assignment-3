@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Assignment - 3</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div>
+        <h1 class="text-center my-3">Check Your Result</h1>
+    </div>
+    <hr class="mt-2 mb-2">
+</header>
+
+    <section>
+        <div class="container">
+            <form action="" id="mark-form">
+                <div class="d-flex flex-column align-items-center">
+                    <div class="mt-5 w-100">
+                        <label for="mark-input" class="form-label w-100 text-center font-weight-bold">Mark</label>
+                        <input type="text" class="form-control" name="markInput" id="mark-input" placeholder="Enter Your Marrk Hear.." oninput="inputValueChange()">
+                    </div>
+                    <div id="resultDiv" class="resultDiv-none align-items-left w-100 my-3">
+                        <p id="grade"></p>
+                        <p id="result"></p>
+                    </div>
+                    <div class="mt-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
